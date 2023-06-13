@@ -1,4 +1,12 @@
 body {background-color:#ffcaca;}
+
+body {background-image: url(../imagenes/nubes.png); 
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-attachment: fixed;
+	  background-size: cover;
+}
+
 .centertext {text-align:center;}
 
 .Important {color:#72002E; text-decoration: underline; text-align:center;} 
@@ -8,3 +16,9 @@ body {background-color:#ffcaca;}
 .imagecenter {display: flex; justify-content: center;}
 
 .imagesize { height: 350px; width: 800px;}
+
+header {background-color: -; padding: - ; margin: - };
+
+.contenedor {display: flex; align-items: center; justify-content: center;
+}
+

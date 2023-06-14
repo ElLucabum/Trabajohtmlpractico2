@@ -7,6 +7,12 @@ body {background-image: url(../imagenes/nubes.png);
 	  background-size: cover;
 }
 
+.btn-wsp {position: fixed; height: 50px;  width: 50px;
+
+line-height: 50px; bottom: 60px; right: 60px
+
+ }
+
 .centertext {text-align:center;}
 
 .Important {color:#72002E; text-decoration: underline; text-align:center;} 
@@ -17,8 +23,13 @@ body {background-image: url(../imagenes/nubes.png);
 
 .imagesize { height: 350px; width: 800px;}
 
-header {background-color: -; padding: - ; margin: - };
+.imagesize2 { height: 100px; width: 100px;}
+
+.imagesize3 { height: 130px; width: 200px;}
+
+.header {background-color: -; padding: - ; margin: - };
 
 .contenedor {display: flex; align-items: center; justify-content: center;
 }
 
+nav {margin-top: 20px;  }

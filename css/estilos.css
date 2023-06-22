@@ -7,6 +7,7 @@ body {margin: 0;
 	 background-size: cover;
 	 background-position: center;
 	 background-color: #ffcaca;
+	 display: flex; 
 }
 
 img {background-color: red;}
@@ -31,9 +32,13 @@ line-height: 50px; bottom: 60px; right: 60px
 
 .imagesize3 { height: 130px; width: 200px;}
 
-.imgAdapt {display: flex; justify-content: center; height: 120vh}
 
-.imgAdapt2 {display: flex; justify-content: center; height: 90vh}
+.imgAdapt {display: flex; justify-content: center; width: 80%; background-color: blue; background-position: center;}
+
+.imgAdapt2 {display: flex; justify-content: center; width: 50vw}
+
+.imgAdapt3 {display: flex; justify-content: center; width: 90vw}
+
 
 .colortex {font-family: 'Pacifico', cursive; color: white; text-shadow: 1px 1px 2px black; font-size: 80px}
 

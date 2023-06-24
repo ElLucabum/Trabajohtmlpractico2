@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(../imagenes/nubes.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.centertext {
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	background-image: url(../imagenes/nuevo-fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+	flex-wrap: wrap;
+    padding: 5%;
+	font-size: 30px
+	
+	
+}
+
+.colortex {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+}
+
+.contenedor {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icons {
+	border-radius: 20%;
+	background-color: rgb(255, 255, 255);
+	height: auto;
+	width: auto;
+}
+
+.Important {
+	color: #72002E;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.textsize {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.textsize2 {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.footer2 {
+	display: flex;
+	justify-content: space-around;
+	background-image: url(../imagenes/nuevo-fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+.info {
+	background-image: url(../imagenes/CiudadArgentina.jpg);
+	background-size: cover;
+	height: 170px;
+	width: 300px;
+	padding: 15px;
+}
+
+.imgcenter {
+	width: 80%; 
+	margin: auto;
+}
+
+.imgsizecommon60 {
+	width: 60%
+}
+
+.imgsize2 {
+	width: 30%
+}
+
+.imgsize3 {
+	width: 50%
+}
+
+.imgiconsize {
+	width: 20%
+}
+
+.pacifico {
+	font-family: 'pacifico', cursive;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-size: 1rem
+}
+
+@font-face {
+	font-family: "kitchen";
+	src: url("../Fuentes/mvboli.ttf")
+	format('truetype');
+	
+}
+
+p {
+    font-family: "kitchen";
+}
+
+h1 {
+    font-family: "kitchen";
+}
+
+h2 {
+    font-family: "kitchen";
+}
+
+h3 {
+    font-family: "kitchen";
+}
+
+h4 {
+    font-family: "kitchen";
+}
+
+h5 {
+    font-family: "kitchen";
+}
+
+h6 {
+    font-family: "kitchen";
+}
+
+li {
+	font-family: "kitchen";
+}

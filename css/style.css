@@ -8,6 +8,17 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+.wsp-float{
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+}
+
+.wsp-size{
+	width: 100px;
+}
+
+
 
 .centertext {
 	text-align: center;

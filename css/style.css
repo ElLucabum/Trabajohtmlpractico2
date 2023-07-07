@@ -2,12 +2,34 @@ body {
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-image: url(../imagenes/nubes.png);
+	background-image: url(../imagenes/nuevo-fondo-principal.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
+
+.border {
+	border-radius: 25px;
+}
+
+@media (max-width: 575px) {
+	.video1 {
+		      display: none;
+	}
+}
+
+@media (min-width: 575px) {
+	.video2 {
+		      display: none;
+	}
+}
+
+.videosize {
+	width: 65%
+
+}
+
 .wsp-float{
 	position: fixed;
 	bottom: 5px;
@@ -17,6 +39,31 @@ body {
 .wsp-size{
 	width: 100px;
 }
+
+@media (max-width: 1199px) {
+	body  {
+		background-image: url(../imagenes/nuevo-fondo-principal.jpg);
+	}
+}
+
+@media (max-width: 768px) {
+    body {
+		background-image: url(../imagenes/fondo-para-tablet.jpg);
+	}
+}
+
+@media (max-width: 575px) {
+	body {
+		background-image: url(../imagenes/NuevoFondoDePantalla.jpg);
+  }
+}
+
+@media (orientation: landscape) and (max-width: 576px){
+	body { 
+		background-image: url(../imagenes/fondo-modo-horizontal.jpg);
+  }
+}
+
 
 
 
@@ -49,6 +96,7 @@ header {
     display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 10px;
 }
 
 .icons {
@@ -90,7 +138,7 @@ nav {
 }
 
 .info {
-	background-image: url(../imagenes/CiudadArgentina.jpg);
+	background-image: url(../imagenes/...);
 	background-size: cover;
 	height: 170px;
 	width: 300px;

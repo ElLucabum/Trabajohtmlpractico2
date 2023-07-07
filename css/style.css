@@ -2,7 +2,7 @@ body {
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-image: url(../imagenes/nuevo-fondo-principal.jpg);
+	background-image: url(./imagenes/nuevo-fondo-principal.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;

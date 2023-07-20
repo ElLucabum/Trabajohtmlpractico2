@@ -9,8 +9,17 @@ body {
 	background-position: center;
 }
 
+.CopyrghtC {
+	color: white;
+	
+}
 
 
+.botones {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
 
 .Bruh {
 	border-radius: 25px;
@@ -57,7 +66,7 @@ body {
 
 @media (max-width: 575px) {
 	body {
-		background-image: url(../imagenes/NuevoFondoDePantalla.jpg);
+		background-image: url(../imagenes/fondo-para-celular.jpg);
   }
 }
 
@@ -83,7 +92,8 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
     padding: 5%;
-	font-size: 30px
+	font-size: 30px;
+	
 	
 	
 }
@@ -118,6 +128,7 @@ header {
 .textsize {
 	font-size: 1.5rem;
 	text-align: center;
+
 }
 
 .textsize2 {

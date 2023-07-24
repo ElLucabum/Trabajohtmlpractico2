@@ -9,17 +9,23 @@ body {
 	background-position: center;
 }
 
-.CopyrghtC {
-	color: white;
-	
+.copyrightC {
+	color: gray;
+	background-color: white;
+	border-radius: 15%;
+	padding: 5px
 }
 
 
-.botones {
+.botones: {
 	display: flex;
-	justify-content: space-around;
-	margin: 20px;
+    justify-content: center;
+	background-color: red;
+    
 }
+
+
+
 
 .Bruh {
 	border-radius: 25px;
@@ -118,6 +124,8 @@ header {
 	height: auto;
 	width: auto;
 }
+
+
 
 .Important {
 	color: #72002E;
